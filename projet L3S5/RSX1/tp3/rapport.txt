@@ -1,0 +1,13 @@
+exercice 1 : 
+
+	1) le serveur attend unne connection qu'il accepte.
+	
+	2)Il y a plusieurs exeptions qui vienne des differente methode de serverSocket. 
+	
+	3) on test son bon fonctionnement en conectent un client telnet sur notre port soit 2021.
+	
+	4) On test si un client se connect puis si il est bien connecter on affiche sont hostName sur l'intance du serveur. Pour faire une boucle on a fait un While(true)
+	
+exercice 2 :
+
+	1)

@@ -1,0 +1,32 @@
+data;
+
+set ENTREPOTS := Lille Paris Roubaix Tourcoing Valenciennes ;
+set MAGASINS := Winner Intersection LeConfus Entrecouru ;
+
+param transportMaxCamion := 400;
+param transportfacher := 300;
+
+param stockEntrepot :=
+Lille 500 #100
+Paris 200
+Roubaix 150
+Tourcoing 150
+Valenciennes 100;
+
+#avec lille a 100 le total est de 700
+
+param : stockMagasin stockMagasinVoulu :=
+Winner 150 550
+Intersection 800 450
+LeConfus 150 400
+Entrecouru 250 400;
+
+#1800 avec 1350 de stock donc 450 d espace
+
+param estFacher : 
+              Winner   Intersection   LeConfus    Entrecouru :=
+Lille          0 0 1 1
+Paris   0 1 0 0
+Roubaix       0 0 0 0
+Tourcoing 0 0 0 0
+Valenciennes     0 0 0 0;
